@@ -18,4 +18,8 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("Inventory");
     }
 
+    public void OpenSelection(){
+        SceneManager.LoadScene("Selection");
+    }
+
 }
