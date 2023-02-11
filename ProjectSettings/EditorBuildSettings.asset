@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Chess.unity
     guid: 62c5940117907de43becfd2505b9c2d4
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 4efe2f69eefdcab43b6d25a12817fa50
+  - enabled: 1
+    path: Assets/Scenes/Inventory.unity
+    guid: 5ddab366ca96038499c3707624062c60
   m_configObjects: {}

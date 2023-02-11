@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Chess.Game {
 	public class GameManager : MonoBehaviour {
@@ -163,7 +164,7 @@ namespace Chess.Game {
 		}
 
 		public void QuitGame () {
-			Application.Quit ();
+			SceneManager.LoadScene("Menu");
 		}
 
 		void NotifyPlayerToMove () {
